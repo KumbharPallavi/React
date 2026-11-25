@@ -1,0 +1,51 @@
+.box{
+  padding: 20px;
+  border: 1px solid #000;
+  width: 20%;
+  margin: 0 auto;
+}
+.add{
+  margin-right: 12px;
+  background-color: darkcyan;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+.sub{
+  background-color: #f00;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.reset{
+  background-color: aquamarine;
+  color: #000;
+  padding: 8px;
+  border-radius: 4px;
+}
+h1{
+  font-size: 18px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul li{
+  display: flex;
+justify-content: space-between;
+list-style: none;
+border: 1px solid;
+padding: 8px
+}
+.delete{
+  background-color: #f00;
+  color: #fff;
+}
+.trigger{
+  width: 20%;
+  background-color: brown;
+  color: #fff;
+  padding: 12px;
+  margin: 0 auto 20px;
+}
